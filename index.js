@@ -13,5 +13,5 @@ function prependKitten(Zen) {
   return [Zen, ...kittens]
 }
 function destructivelyRemoveFirstKitten(Garfield) {
-  return kittens.shift(Zen)
+  return kittens.shift(Garfield)
 }
