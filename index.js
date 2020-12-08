@@ -18,3 +18,7 @@ function destructivelyRemoveFirstKitten(Garfield) {
 function appendKitten(Zen) {
   return[...kittens, Zen]
 }
+function removeLastKitten(Garfield) {
+  return kittens.slice(0,kittens.length-1)
+}
+function
