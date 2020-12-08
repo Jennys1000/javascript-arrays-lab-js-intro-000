@@ -6,3 +6,6 @@ function destructivelyPrependKitten(Zen) {
   return kittens.unshift(Zen)
 }
 // Add your functions and code here
+function destructivelyRemoveLastKitten(Garfield) {
+  return kittens.pop(Garfield)
+}
