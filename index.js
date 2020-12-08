@@ -10,5 +10,5 @@ function destructivelyRemoveLastKitten(Garfield) {
   return kittens.pop(Garfield)
 }
 function prependKitten(Zen) {
-  return [...kittens, Zen]
+  return [Zen, ...kittens]
 }
