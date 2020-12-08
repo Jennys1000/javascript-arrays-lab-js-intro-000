@@ -21,4 +21,6 @@ function appendKitten(Zen) {
 function removeLastKitten(Garfield) {
   return kittens.slice(0,kittens.length-1)
 }
-function
+function removeFirstKitten(Milo) {
+    return kittens.slice(1)
+}
