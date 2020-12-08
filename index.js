@@ -15,3 +15,6 @@ function prependKitten(Zen) {
 function destructivelyRemoveFirstKitten(Garfield) {
   return kittens.shift(Garfield)
 }
+function appendKitten(Zen) {
+  return[...kittens, Zen]
+}
